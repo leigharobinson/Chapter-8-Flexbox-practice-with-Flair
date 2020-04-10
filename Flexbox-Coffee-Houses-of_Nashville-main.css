@@ -1,0 +1,63 @@
+
+
+.pageHeader {
+    text-align: center;
+}
+
+div {
+    background-color: antiquewhite;
+    padding: 10px 20px 10px 20px;
+    border: 1px dotted maroon;
+    position: relative;
+    display: inline-flex;
+}
+  
+
+p {
+    font-family: cursive;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+    text-align: center;
+}
+
+
+
+
+img.one {
+    float: left;
+    position: relative;
+    max-width: 7%;
+    height: auto;
+}
+
+
+
+
+
+/* Parent */
+.list {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 1em;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+/*Child*/
+.shop {
+
+    width:32%;
+    border: 1px dotted maroon; 
+    background-color: burlywood;
+    padding: 1px; 
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
